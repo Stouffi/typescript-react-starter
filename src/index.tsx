@@ -1,13 +1,10 @@
 import { effect } from '@matechs/effect'
-import { fold } from '@matechs/effect/lib/exit'
 import * as firebase from 'firebase/app'
-import { constVoid } from 'fp-ts/lib/function'
-import { pipe } from 'fp-ts/lib/pipeable'
+import { pipe } from 'fp-ts/es6/pipeable'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { App } from './App'
-import { Environment } from './core/environment'
-import { fromDecoder } from './framework/effects/process-env'
+import { Environment, readEnvironment } from './core/environment'
 
 const startApp = effect.sync(() => {
   const rootEl = document.createElement('div')
@@ -19,18 +16,12 @@ const startApp = effect.sync(() => {
 const initializeFirebase = (e: Environment) => firebase.initializeApp(e)
 
 export const program = pipe(
-  fromDecoder(Environment.strictType),
+  readEnvironment,
   effect.map(initializeFirebase),
   effect.chain(() => startApp),
   effect.provide(process),
-  effect.runToPromiseExit,
-  async pro => {
-    const exit = await pro
-    return fold(
-      constVoid,
-      err => console.log(err),
-      err => console.log(err),
-      () => console.log('Starting App Interrupted')
-    )(exit)
-  }
+  effect.run
 )
+
+console.log(process.env.FIREBASE_apiKey)
+console.log(process.env)
