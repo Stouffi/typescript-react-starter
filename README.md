@@ -14,6 +14,12 @@ yarn
 yarn start
 ```
 
+## Test
+
+```
+yarn test
+```
+
 ## Production build
 
 ```
