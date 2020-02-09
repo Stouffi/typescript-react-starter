@@ -458,7 +458,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@12.12.x":
+"@types/node@*", "@types/node@12.12.25":
   version "12.12.25"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.25.tgz#792c0afb798f1dd681dce9c4b4c431f7245a0a42"
   integrity sha512-nf1LMGZvgFX186geVZR1xMZKKblJiRfiASTHw85zED2kI1yDKHDwTKMdkaCbTlXoRKlGKaDfYywt+V0As30q3w==
@@ -3800,12 +3800,6 @@ monocle-ts@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/monocle-ts/-/monocle-ts-2.0.1.tgz#743b7a021144e2501e8162c66a2525b9f226d6b1"
   integrity sha512-e1ulohxv2LXuaU1hyziPWmNQRcEL2kRawU60+SVzHjb7i3AKs65KWKLHcXreONJah6I0kibeAnQaCTJ29txWXA==
-
-morphic-ts@../../sledorze/morphic-ts/morphic-ts-v0.7.0.tgz:
-  version "0.7.0"
-  resolved "../../sledorze/morphic-ts/morphic-ts-v0.7.0.tgz#bfad8fe4d57f6f3c17c8ec5ba02f1104b5ec58a8"
-  dependencies:
-    tslib "^1.10.0"
 
 morphic-ts@0.7.0:
   version "0.7.0"
