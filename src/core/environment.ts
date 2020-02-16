@@ -3,7 +3,7 @@ import { effect } from '@matechs/effect'
 import { flow } from 'fp-ts/es6/function'
 import { pipe } from 'fp-ts/es6/pipeable'
 import { AsOpaque, summon } from 'morphic-ts/lib/batteries/summoner'
-import { AType, EType } from 'morphic-ts/lib/usage/materializer'
+import { AType, EType } from 'morphic-ts/lib/usage/utils'
 import { fromDecoder } from '../framework/effects/process-env'
 import { shortReportInsecure } from './short-report'
 
