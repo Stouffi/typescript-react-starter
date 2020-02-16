@@ -9,7 +9,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    project: './tsconfig.json'
+    project: ['./tsconfig.json', 'webpack/tsconfig.json']
   },
   plugins: ['prefer-arrow'],
   rules: {
@@ -19,6 +19,7 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': [1, { allowSingleExtends: true }],
     '@typescript-eslint/no-explicit-any': 0,
     'prefer-arrow/prefer-arrow-functions': 1,
+    'arrow-body-style': [1, 'as-needed'],
     'prettier/prettier': 1
   }
 }

@@ -9,6 +9,6 @@ const config: Configuration = merge(common, {
   devServer: {
     contentBase: './dist'
   },
-  plugins: [new Dotenv({safe: false})]
+  plugins: [new Dotenv({ safe: false })]
 })
 export default config
