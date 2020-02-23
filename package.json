@@ -14,7 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn check --integrity && yarn yarn-deduplicate"
+      "pre-push": "./pre-push.sh"
     }
   },
   "devDependencies": {
