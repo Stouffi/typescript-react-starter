@@ -4,7 +4,7 @@ import { pipe } from 'fp-ts/es6/pipeable'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { App } from './App'
-import { Environment, readEnvironment } from './core/environment'
+import { env, Environment, readEnvironment } from './core/environment'
 
 const startApp = effect.sync(() => {
   const rootEl = document.createElement('div')
@@ -19,9 +19,9 @@ export const program = pipe(
   readEnvironment,
   effect.map(initializeFirebase),
   effect.chain(() => startApp),
-  effect.provide(process),
+  effect.provide({ env }),
   effect.run
 )
 
-console.log(process.env.FIREBASE_apiKey)
-console.log(process.env)
+console.log(env.FIREBASE_apiKey)
+console.log('FULL ENV', env)

@@ -29,9 +29,7 @@ const config: webpack.Configuration = {
   plugins: [
     new CleanWebpackPlugin(),
     new ForkTsCheckerWebpackPlugin({ eslint: true }),
-    new HtmlWebpackPlugin({
-      title: 'Output Management'
-    })
+    new HtmlWebpackPlugin({ template: './src/index.html' })
   ]
 }
 

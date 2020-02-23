@@ -36,3 +36,7 @@ export const readEnvironment = pipe(
     )
   )
 )
+
+declare const _env: NodeJS.ProcessEnv
+
+export const env = _env
