@@ -13,7 +13,7 @@ const startApp = effect.sync(() => {
   ReactDOM.render(<App />, rootEl)
 })
 
-const initializeFirebase = (e: Environment) => firebase.initializeApp(e)
+const initializeFirebase: (e: Environment) => firebase.app.App = firebase.initializeApp
 
 export const program = pipe(
   readEnvironment,
