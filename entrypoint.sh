@@ -6,17 +6,21 @@ echo "Serializing environment:"
 
 react-env --dest .
 
-# save content of env.js as it will be removed.
-subs=$(cat env.js)
+envs=$(cat env.js)
 
-rm env.js
+echo "$envs"
+
+# save content of env.js as it will be removed.
+subs="data:text/javascript;base64,$(base64 -w 0 env.js)"
 
 echo "$subs"
+
+rm env.js
 
 # cat /var/www/index.html
 
 # Substitute the script with src by an equivalent inline script.
-sed -i "s~<script src=\"/env.js\"></script>~<script>${subs}</script>~" /var/www/index.html
+sed -i "s|<script src=\"/env.js\"></script>|<script src=\"${subs}\"></script>|" /var/www/index.html
 
 # echo 'After substitution'
 # cat /var/www/index.html

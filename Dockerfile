@@ -1,5 +1,7 @@
 FROM nginx:stable-alpine
 
+RUN apk add --update coreutils
+
 RUN apk add --no-cache nodejs yarn
 
 RUN yarn global add @beam-australia/react-env
