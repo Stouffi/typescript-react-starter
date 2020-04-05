@@ -16,6 +16,10 @@ const config: webpack.Configuration = {
           transpileOnly: true
         },
         exclude: /node_modules/
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },

@@ -1,6 +1,4 @@
-import { last, lookup } from 'fp-ts/es6/Array'
-import { fold, isSome } from 'fp-ts/es6/Option'
-import { pipe } from 'fp-ts/es6/pipeable'
+import { array, option, pipeable as p } from 'fp-ts'
 import { ValidationError } from 'io-ts'
 
 /**
@@ -13,17 +11,17 @@ export const shortReportInsecure = (errors: ValidationError[]): string =>
   errors
     .map(error => {
       const contextArray = new Array(...error.context)
-      const expectedType = last(contextArray)
-      const outerType = lookup(contextArray.length - 2, contextArray)
+      const expectedType = array.last(contextArray)
+      const outerType = array.lookup(contextArray.length - 2, contextArray)
 
-      const msg = `${error.context.map(c => c.key).join('/')}: expecting type <${pipe(
+      const msg = `${error.context.map(c => c.key).join('/')}: expecting type <${p.pipe(
         expectedType,
-        fold(
+        option.fold(
           () => 'UNKNOWN',
           x => x.type.name
         )
       )}> ${
-        isSome(outerType) ? `in Type ${outerType.value.type.name}` : ''
+        option.isSome(outerType) ? `in Type ${outerType.value.type.name}` : ''
       } Got value <${JSON.stringify(error.value)}>, type: ${typeof error.value}`
       return msg
     })
@@ -37,16 +35,18 @@ export const shortReport = (errors: ValidationError[]): string =>
   errors
     .map(error => {
       const contextArray = new Array(...error.context)
-      const expectedType = last(contextArray)
-      const outerType = lookup(contextArray.length - 2, contextArray)
+      const expectedType = array.last(contextArray)
+      const outerType = array.lookup(contextArray.length - 2, contextArray)
 
-      const msg = `${error.context.map(c => c.key).join('/')}: expecting type <${pipe(
+      const msg = `${error.context.map(c => c.key).join('/')}: expecting type <${p.pipe(
         expectedType,
-        fold(
+        option.fold(
           () => 'UNKNOWN',
           x => x.type.name
         )
-      )}> ${isSome(outerType) ? `in Type ${outerType.value.type.name}` : ''} Got invalid value`
+      )}> ${
+        option.isSome(outerType) ? `in Type ${outerType.value.type.name}` : ''
+      } Got invalid value`
       return msg
     })
     .join('\n')
