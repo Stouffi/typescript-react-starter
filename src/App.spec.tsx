@@ -9,7 +9,8 @@ import { SignInContext } from './auth/SignIn'
 jest.mock('./auth/SignIn', () => ({ SignInContext: jest.fn(constNull) }))
 
 describe('App', () => {
-  test('mount', () => {
+  // Test is skipped because not api keys are available on the starter repo
+  test.skip('mount', () => {
     firebase.initializeApp({ apiKey: process.env.REACT_APP_FIREBASE_apiKey })
     const auth = firebase.auth()
     const spy = jest.spyOn(auth, 'onAuthStateChanged')
