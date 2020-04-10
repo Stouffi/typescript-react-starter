@@ -747,10 +747,10 @@
   resolved "https://registry.yarnpkg.com/@matechs/console/-/console-3.0.28.tgz#542db94796f5173c93f64528aad5bf15667cbf9a"
   integrity sha512-8GNLKD45ARyqHNU9cD7I8MTm3GBqcH4FQD4ei6IH6b442JcVIFcCB9BHc/pYLOn9Mj6Z3W8b2TgSeUh0CmzW7w==
 
-"@matechs/effect@5.0.24":
-  version "5.0.24"
-  resolved "https://registry.yarnpkg.com/@matechs/effect/-/effect-5.0.24.tgz#4c317acf2c03fe526e5d022202a91294ad4e52c1"
-  integrity sha512-4n/105KY+Ym8BuiWzojBbCgxstGzDD5wEWMktAV4V19KcyGHQzVeO7t/rsHJlyRdMHDb5MO/ZEudXpMReAbpCw==
+"@matechs/effect@5.0.25":
+  version "5.0.25"
+  resolved "https://registry.yarnpkg.com/@matechs/effect/-/effect-5.0.25.tgz#11b64585a6d84619b68bd8d76702954fa0c817a4"
+  integrity sha512-R0B6bMWsyCEU36MtX30Za5CkZmBBbhFT07spjTHCX/n4cwDjcrNfsnqKa6cNA93tPSRrw0S2pAcOpcdsLJzB2w==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
