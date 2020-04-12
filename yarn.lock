@@ -732,10 +732,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@matechs/console@3.0.28":
-  version "3.0.28"
-  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-3.0.28.tgz#542db94796f5173c93f64528aad5bf15667cbf9a"
-  integrity sha512-8GNLKD45ARyqHNU9cD7I8MTm3GBqcH4FQD4ei6IH6b442JcVIFcCB9BHc/pYLOn9Mj6Z3W8b2TgSeUh0CmzW7w==
+"@matechs/console@3.0.31":
+  version "3.0.31"
+  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-3.0.31.tgz#eb893975e684a2fb761b3eba595f69dbdcead7c4"
+  integrity sha512-Lyq5FHqhjiH0XzAwHdF8Furnf6mk88tBIcn4gxWXgt+l1I0c9D4ZbfFcvYmx/NJuDbMsGwY4/3i6BSZ7bwK7mg==
 
 "@matechs/effect@5.0.24":
   version "5.0.24"
