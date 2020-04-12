@@ -3,7 +3,7 @@
   "description": "React & TypeScript Starter with webpack, ts-jest and runtime environment variables. It comes with fp-ts ecosystem and pre-configured prettier, eslint, vscode, husky hooks and Dockerfile to build a deployable image of your app",
   "repository": "git@github.com:Stouffi/typescript-react-starter.git",
   "author": "Stouffi <steff.leb@orange.fr>",
-  "license": "The Unlicense",
+  "license": "MIT",
   "private": true,
   "sideEffects": false,
   "scripts": {
