@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@matechs/console": "3.0.28",
-    "@matechs/effect": "5.0.24",
+    "@matechs/effect": "5.0.28",
     "antd": "4.1.2",
     "fast-check": "1.24.1",
     "fast-equals": "2.0.0",
