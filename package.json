@@ -24,7 +24,7 @@
     "@testing-library/react": "10.0.3",
     "@types/html-webpack-plugin": "3.2.2",
     "@types/jest": "25.2.1",
-    "@types/node": "^12.12.36",
+    "@types/node": "^12.12.37",
     "@types/react": "16.9.34",
     "@types/react-dom": "16.9.6",
     "@types/webpack": "4.41.12",
