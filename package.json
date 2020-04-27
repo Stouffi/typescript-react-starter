@@ -26,7 +26,7 @@
     "@types/jest": "25.2.1",
     "@types/node": "^12.12.37",
     "@types/react": "16.9.34",
-    "@types/react-dom": "16.9.6",
+    "@types/react-dom": "16.9.7",
     "@types/webpack": "4.41.12",
     "@types/webpack-dev-server": "3.10.1",
     "@types/webpack-merge": "4.1.5",
