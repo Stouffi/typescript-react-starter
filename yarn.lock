@@ -766,15 +766,29 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@matechs/console@3.0.33":
-  version "3.0.33"
-  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-3.0.33.tgz#9930bd69ad342b85f4cf5c27b5faec1e257a9ca3"
-  integrity sha512-JzJktx7Qg80A2PVX7/yfHvR+pwjn4tN0eWamxHy4nglUhBI+VWpHH5pbfPPZifDG9m3lAAaFK1FuCqYgGMZIQQ==
+"@matechs/console@4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-4.10.0.tgz#9032248f7117aa79f29dce13932c45466747d223"
+  integrity sha512-RoV+AvOFf7QLGdW9UyVmBxdp+fkOACNhldmDLZetm/xby4CZdL9lWBIhhNO6/sVL60OjuHptOxjfzRqQGnh2bg==
+  dependencies:
+    "@matechs/prelude" "^1.9.0"
 
 "@matechs/effect@5.0.29":
   version "5.0.29"
   resolved "https://registry.yarnpkg.com/@matechs/effect/-/effect-5.0.29.tgz#2efa905197feccb510914fb9fe7d46b4da14101e"
   integrity sha512-gUYEcvJ/Tls4rWhdDUBc+/FJ8II0CEyyUCaa1GOXe4nezt5Vf6nBKcy/SLuFmmwROhwz0wMAi1pLGa3JpCE7QA==
+
+"@matechs/effect@^6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@matechs/effect/-/effect-6.8.0.tgz#5404c621d5df11952782710b176c89fb6bdbd174"
+  integrity sha512-KdW6V51GRRQu6FmdZzaLLf2UeJXv/rRCAR+P5SLGDDNCw0IDdjGtpWhp62VSTzmGLxMyc5Tl6MIIWVSiR39HRg==
+
+"@matechs/prelude@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@matechs/prelude/-/prelude-1.9.0.tgz#2013066c6af92775eb19c2a0a1a97268091cb29d"
+  integrity sha512-AOWf3Dd7aopj9Cii0hVMElTg2/SL95bKQvqjdNmaZZVIUNmV4F/cEqkFtHgyPFepqDB5pNgdZ95x1UpW2iKsZA==
+  dependencies:
+    "@matechs/effect" "^6.8.0"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
