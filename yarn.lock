@@ -771,10 +771,20 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@matechs/console@3.0.33":
-  version "3.0.33"
-  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-3.0.33.tgz#9930bd69ad342b85f4cf5c27b5faec1e257a9ca3"
-  integrity sha512-JzJktx7Qg80A2PVX7/yfHvR+pwjn4tN0eWamxHy4nglUhBI+VWpHH5pbfPPZifDG9m3lAAaFK1FuCqYgGMZIQQ==
+"@matechs/console@6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-6.5.0.tgz#b86310bdbb832b00a31026bbb891d79b0e5adbe3"
+  integrity sha512-+fA1OTCKJ4yh2uzR/4ptunlX5X+u3dcbB6srUQTRWeTuiorN9Uc22AkHP7YSGT+SiLGYRWUm55tpCjNjL3kHPg==
+  dependencies:
+    "@matechs/core" "^1.5.0"
+
+"@matechs/core@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@matechs/core/-/core-1.5.0.tgz#e1ad93f2453d3d20f745153fa55a6e90acf6288b"
+  integrity sha512-yuabPblYfYiMxCF+4Ze3NmEUd4kWKI0XrsfhOofGnL5/hld/HRFW9k3wMd7Lv1whnZ5Ou3mIQw8wDHw0iOGRjQ==
+  dependencies:
+    fp-ts "2.6.2"
+    io-ts "2.2.4"
 
 "@matechs/effect@5.0.29":
   version "5.0.29"
