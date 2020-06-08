@@ -57,7 +57,7 @@
     "yarn-deduplicate": "2.0.0"
   },
   "dependencies": {
-    "@matechs/console": "3.0.33",
+    "@matechs/console": "7.4.0",
     "@matechs/effect": "5.0.29",
     "antd": "4.3.3",
     "fast-check": "1.24.2",
