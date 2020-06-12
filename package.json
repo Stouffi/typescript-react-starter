@@ -60,7 +60,7 @@
     "@matechs/console": "3.0.33",
     "@matechs/effect": "5.0.29",
     "antd": "4.3.3",
-    "fast-check": "1.24.2",
+    "fast-check": "1.25.0",
     "fast-equals": "2.0.0",
     "firebase": "7.15.1",
     "fp-ts": "2.6.5",
