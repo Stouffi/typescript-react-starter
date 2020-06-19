@@ -62,7 +62,7 @@
     "antd": "4.3.4",
     "fast-check": "1.25.1",
     "fast-equals": "2.0.0",
-    "firebase": "7.15.1",
+    "firebase": "7.15.2",
     "fp-ts": "2.6.6",
     "fp-ts-contrib": "0.1.16",
     "io-ts": "2.2.6",
