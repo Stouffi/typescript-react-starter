@@ -772,10 +772,20 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@matechs/console@3.0.33":
-  version "3.0.33"
-  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-3.0.33.tgz#9930bd69ad342b85f4cf5c27b5faec1e257a9ca3"
-  integrity sha512-JzJktx7Qg80A2PVX7/yfHvR+pwjn4tN0eWamxHy4nglUhBI+VWpHH5pbfPPZifDG9m3lAAaFK1FuCqYgGMZIQQ==
+"@matechs/console@7.10.0":
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/@matechs/console/-/console-7.10.0.tgz#997b50cfff8dadf62f3ec9cf60f6c1a284e40d2c"
+  integrity sha512-rjANFyl+JWGsMjLkZlw5jtFdm1ySl5ofmImncNFJLl5xtE7MNLo/2tXk9ZcDVBJbrkD3gbsRELOfsTpzmM1zyw==
+  dependencies:
+    "@matechs/core" "^2.10.0"
+
+"@matechs/core@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@matechs/core/-/core-2.10.0.tgz#116116c1757ca2e47b6df5640f3109305ad37275"
+  integrity sha512-krmgNV2jYkfw34FrY3Xq3h9pUQAT2EZOEBV6ZpsGYvkbhMQM2BiLsAaUtPX8G99GXEkFnH76VWALeQ5EFxc05g==
+  dependencies:
+    fp-ts "2.6.3"
+    fp-ts-contrib "^0.1.15"
 
 "@matechs/effect@5.0.29":
   version "5.0.29"
@@ -3754,10 +3764,15 @@ forwarded@~0.1.2:
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
   integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
 
-fp-ts-contrib@0.1.17:
+fp-ts-contrib@0.1.17, fp-ts-contrib@^0.1.15:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/fp-ts-contrib/-/fp-ts-contrib-0.1.17.tgz#208ff83b2b457c61f458016e324ff95a5671c0c1"
   integrity sha512-UBQ7AdGp0GktLkIn3e6npVIfLm1ZM+racizgVqL88j6HBLBoBjRtVjIxRIS6YbNypuP94ngaZpy2SEib9lnZ9A==
+
+fp-ts@2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/fp-ts/-/fp-ts-2.6.3.tgz#f08e8b8b13d652ce7f1d4da875cb5d6246109d37"
+  integrity sha512-d/djF6VTApJB9DwD/yec2dlKd7h3oqiOv+6vtBnC1pKbHrhz7aEAGcKd4luraUQDJ3pt3C6W4Npd8s+l5xIquQ==
 
 fp-ts@2.7.0:
   version "2.7.0"
