@@ -5610,10 +5610,10 @@ moment@^2.24.0, moment@^2.25.3:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.26.0.tgz#5e1f82c6bafca6e83e808b30c8705eed0dcbd39a"
   integrity sha512-oIixUO+OamkUkwjhAVE18rAMfRJNsNe/Stid/gwHSOfHrOtw9EhAY2AHvdKZ/k/MggcYELFCJz/Sn2pL8b8JMw==
 
-monocle-ts@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/monocle-ts/-/monocle-ts-2.3.1.tgz#1f3768cde3a61e9f189fbb6cc9a70f87fa6d7ea4"
-  integrity sha512-VYfbzBZBHwsWsyrsnpneu0Ma6Tkjof1LOGQtgIhm3NJT1u4oJCPY8EeBgfvS43rmMOQzBLM2LCkFrUfiLFjlAw==
+monocle-ts@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/monocle-ts/-/monocle-ts-2.3.2.tgz#62355c4a3e01355f78ae675d5b3959a46f82ac20"
+  integrity sha512-1devyvOJyskBvmybp3iXPdG+MhCMwPnYIqA8wwSm+Yjeu0SW0HRDjgC2tb+f4T2W4CA0wKwEjaTlSISiEL4JVw==
 
 morphic-ts@0.8.0-rc.2:
   version "0.8.0-rc.2"
