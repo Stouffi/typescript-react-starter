@@ -76,6 +76,6 @@
     "redux": "4.0.5",
     "redux-observable": "1.2.0",
     "retry-ts": "0.1.2",
-    "rxjs": "6.6.0"
+    "rxjs": "6.6.2"
   }
 }
