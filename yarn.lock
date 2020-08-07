@@ -4423,10 +4423,10 @@ interpret@^1.4.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
 
-io-ts-types@0.5.8:
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/io-ts-types/-/io-ts-types-0.5.8.tgz#b08b6a730fde67fac93f7e511c7e6c479bfbd5e1"
-  integrity sha512-l4ffAX6AskEqoC/KnL+f2aczstbKumi/GBTxcaerBLjzoeZ24og0Xe/aUT9SdfKnJcz7sZlhmGWl2F7A0imOnw==
+io-ts-types@0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/io-ts-types/-/io-ts-types-0.5.9.tgz#3efa7c123b102c7e9ebe5bccfc610071d7d6e008"
+  integrity sha512-wL+syEjQL4X9cXkAYxte4EJ+MCobjx7dKJb1Y/33UnRRvT1PjkXqB5Wz/LJtG/MEaMcC0euwsHM0ooRDJvrKug==
 
 io-ts@2.2.9:
   version "2.2.9"
