@@ -65,7 +65,7 @@
     "firebase": "7.18.0",
     "fp-ts": "2.8.1",
     "fp-ts-contrib": "0.1.18",
-    "io-ts": "2.2.9",
+    "io-ts": "2.2.10",
     "io-ts-types": "0.5.10",
     "monocle-ts": "2.3.3",
     "morphic-ts": "0.8.0-rc.2",
