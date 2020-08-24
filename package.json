@@ -63,7 +63,7 @@
     "fast-check": "2.2.0",
     "fast-equals": "2.0.0",
     "firebase": "7.19.0",
-    "fp-ts": "2.8.1",
+    "fp-ts": "2.8.2",
     "fp-ts-contrib": "0.1.18",
     "io-ts": "2.2.10",
     "io-ts-types": "0.5.10",
