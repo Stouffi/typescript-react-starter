@@ -59,7 +59,7 @@
   "dependencies": {
     "@matechs/console": "3.0.33",
     "@matechs/effect": "5.0.29",
-    "antd": "4.6.3",
+    "antd": "4.6.4",
     "fast-check": "2.3.0",
     "fast-equals": "2.0.0",
     "firebase": "7.20.0",
