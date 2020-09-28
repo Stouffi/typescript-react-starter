@@ -64,7 +64,7 @@
     "fast-equals": "2.0.0",
     "firebase": "7.21.1",
     "fp-ts": "2.8.3",
-    "fp-ts-contrib": "0.1.20",
+    "fp-ts-contrib": "0.1.21",
     "io-ts": "2.2.10",
     "io-ts-types": "0.5.11",
     "monocle-ts": "2.3.3",
