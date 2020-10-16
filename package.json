@@ -71,7 +71,7 @@
     "morphic-ts": "0.8.0-rc.2",
     "newtype-ts": "0.3.4",
     "react": "16.14.0",
-    "react-dom": "16.13.1",
+    "react-dom": "16.14.0",
     "react-redux": "7.2.1",
     "redux": "4.0.5",
     "redux-observable": "1.2.0",
