@@ -53,7 +53,7 @@
     "webpack": "5.10.3",
     "webpack-cli": "4.1.0",
     "webpack-dev-server": "3.11.0",
-    "webpack-merge": "5.7.0",
+    "webpack-merge": "5.7.1",
     "yarn-deduplicate": "3.1.0"
   },
   "dependencies": {
