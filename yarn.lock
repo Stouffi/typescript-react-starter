@@ -6880,10 +6880,10 @@ run-parallel@^1.1.9:
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.1.9.tgz#c9dd3a7cf9f4b2c4b6244e173a6ed866e61dd679"
   integrity sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==
 
-rxjs@6.6.3:
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
-  integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
+rxjs@6.6.4:
+  version "6.6.4"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.4.tgz#e17ba67077055793e54a5a088a19425bcfd34f44"
+  integrity sha512-LeiFeAIlq7Zlx3j6hhofVQvAwElxMiInFOmr4vyKbZtWM5TDBSdtox46YQSAvS8jfy7izc8hwzbuA/uI1ITxXQ==
   dependencies:
     tslib "^1.9.0"
 
