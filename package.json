@@ -20,7 +20,7 @@
     }
   },
   "devDependencies": {
-    "@beam-australia/react-env": "2.1.2",
+    "@beam-australia/react-env": "3.0.3",
     "@testing-library/react": "11.2.5",
     "@types/html-webpack-plugin": "3.2.4",
     "@types/jest": "26.0.20",
