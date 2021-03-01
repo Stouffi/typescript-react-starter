@@ -345,10 +345,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@beam-australia/react-env@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@beam-australia/react-env/-/react-env-2.1.2.tgz#12581373fcb20f68ac206cd8317a74261a9dde0c"
-  integrity sha512-gXcCGGGb2oRM/oeqT861JXsSTJjOxGTBMkj7J5ujEBb6Vmv5I108NcALPYYdGdzFCV6ebdVP+E5k0W1xAbzA7w==
+"@beam-australia/react-env@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@beam-australia/react-env/-/react-env-3.0.3.tgz#2c8807d2a7e043ed3da1664c5da8620bd189a0e3"
+  integrity sha512-GMq/A7iRFsljsiikFgiDxhkDY/GunJroTt5HKeIqbhYTSNMPviGOB9JfBtj93ZraRqGzUnJuee1pgu/UIXHidg==
   dependencies:
     cross-spawn "^6.0.5"
     dotenv "^8.0.0"
