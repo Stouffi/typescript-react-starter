@@ -67,7 +67,7 @@
     "fp-ts-contrib": "0.1.21",
     "io-ts": "2.2.15",
     "io-ts-types": "0.5.15",
-    "monocle-ts": "2.3.7",
+    "monocle-ts": "2.3.8",
     "morphic-ts": "0.8.0-rc.2",
     "newtype-ts": "0.3.4",
     "react": "17.0.1",
