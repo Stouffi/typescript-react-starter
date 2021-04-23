@@ -3655,10 +3655,10 @@ forwarded@~0.1.2:
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
   integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
 
-fp-ts-contrib@0.1.21, fp-ts-contrib@^0.1.17:
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/fp-ts-contrib/-/fp-ts-contrib-0.1.21.tgz#9a2b6c108ad9487922890f46219d5639f3cacc66"
-  integrity sha512-Wa1wXpeDDVyPiTZaxbas+y6pigKxiZlf/xzUBhFJ5bPNAsOrzNfFeQliu3bIH9ZjYWrt6HIMuNXAejPh6oSSkA==
+fp-ts-contrib@0.1.22, fp-ts-contrib@^0.1.17:
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/fp-ts-contrib/-/fp-ts-contrib-0.1.22.tgz#84726ec4d73beb55fc21efd0c55baf2585924b9b"
+  integrity sha512-HdXMRE8Jh+XLsY+aHXxY4eDr2JsdJv6rMPa7a07sUHFmZucnnCZXATxdDu+pYyc6/NLyj5pJgtl+XPiLY2a0/g==
 
 fp-ts@2.10.4, fp-ts@^2.7.1:
   version "2.10.4"
