@@ -43,7 +43,7 @@
     "html-webpack-plugin": "5.3.1",
     "husky": "6.0.0",
     "jest": "26.6.3",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "style-loader": "2.0.0",
     "ts-jest": "26.5.6",
     "ts-loader": "8.1.0",
