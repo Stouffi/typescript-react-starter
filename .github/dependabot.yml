@@ -1,0 +1,69 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:30"
+    timezone: Europe/Paris
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: "@types/node"
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: firebase
+    versions:
+    - 8.2.10
+    - 8.2.4
+    - 8.2.5
+    - 8.2.6
+    - 8.2.7
+    - 8.2.8
+    - 8.2.9
+    - 8.3.0
+    - 8.3.1
+    - 8.3.2
+    - 8.3.3
+    - 8.4.0
+    - 8.4.1
+  - dependency-name: fork-ts-checker-webpack-plugin
+    versions:
+    - 6.2.2
+    - 6.2.3
+  - dependency-name: webpack
+    versions:
+    - 5.21.0
+    - 5.21.1
+    - 5.26.1
+    - 5.27.0
+    - 5.31.1
+    - 5.34.0
+  - dependency-name: fp-ts
+    versions:
+    - 2.10.3
+  - dependency-name: css-loader
+    versions:
+    - 5.2.3
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.16.0
+  - dependency-name: rxjs
+    versions:
+    - 6.6.4
+  - dependency-name: fast-check
+    versions:
+    - 2.12.2
+  - dependency-name: webpack-cli
+    versions:
+    - 4.4.0
+    - 4.5.0
+  - dependency-name: "@beam-australia/react-env"
+    versions:
+    - 3.0.4
+    - 3.0.5
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.16.0
